@@ -13,7 +13,14 @@
 h1{color:0077ff;text-align:center;font-size:40;}
 p{text-align:center;}
 div{text-align:center;font-size:15;}
-.submit{background-color:#0088ff;width:1020px;height:40;color:#ffffff;border:none}
+.test{background-color:#0088ff;width:1020px;height:40;color:#ffffff;border:none;}
+.underline{border-left-width:0;
+  border-right-width:0;
+  border-top-width:0;
+  border-bottom-width:1;
+}
+#forgot{font-size:13}
+
 </style>
 
 
@@ -22,11 +29,12 @@ div{text-align:center;font-size:15;}
 <br><br><br><br><br><br>
 <h1>Welcome to People Inside</h1>
 <div>All of your activities are guaranteed anonymously.</div><br><br><br><br>
-<p><input type="text" style="width:1020px;height:40px; name="email" class="text-field" placeholder="ID" ></p>
-<p><input type="password" style="width:1020px;height:40px; name="password" class="text-field"placeholder="Password"></p>
-<p><input type="submit" value="Login"class="submit"> </p>
-<p><input type="submit" value="Sign up" class="submit"></p>
-<p style="font-size:13">Forgot ID or Password?</p>
+<p><input type="text" style="width:1020px;height:40px;name:ID" placeholder="ID" class="underline"</p>
+<p><input type="password" style="width:1020px;height:40px;name:password" placeholder="Password" class="underline"</p>
+<p><input type="submit" value="Login"class="test"> </p>
+<p><input type="submit" name="sign up" value="Sign up" class="test"></p>
+
+<p id="forgot">Forgot ID or Password?</p>
 
 
 
